@@ -1,0 +1,175 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  background-image: url("/assets/image/gunessistemi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.gunes {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mercury {
+  width: 250px;
+  height: 250px;
+
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: mercury 13s infinite linear;
+}
+@keyframes mercury {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.mercury img {
+  width: 70px;
+  height: 40px;
+  position: absolute;
+  right: 5px;
+}
+.venus {
+  width: 350px;
+  height: 350px;
+
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: venus 10s infinite linear;
+}
+@keyframes venus {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.venus img {
+  width: 80px;
+  height: 60px;
+  position: absolute;
+  right: 20px;
+}
+.yer {
+  width: 450px;
+  height: 450px;
+
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yer 15s infinite linear;
+}
+@keyframes yer {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.yer img {
+  width: 120px;
+  height: 60px;
+  position: absolute;
+  right: 20px;
+}
+.mars {
+  width: 550px;
+  height: 550px;
+
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: mars 30s infinite linear;
+}
+@keyframes mars {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.mars img {
+  width: 80px;
+  height: 60px;
+  position: absolute;
+  right: 15px;
+}
+.yupiter {
+  width: 650px;
+  height: 650px;
+
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: yupiter 15s infinite linear;
+}
+@keyframes yupiter {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.yupiter img {
+  width: 130px;
+  height: 90px;
+  position: absolute;
+  right: 15px;
+}
+.saturn {
+  width: 750px;
+  height: 750px;
+
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: saturn 20s infinite linear;
+}
+@keyframes saturn {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.saturn img {
+  width: 170px;
+  height: 100px;
+  position: absolute;
+  right: 15px;
+}
+.uranus {
+  width: 850px;
+  height: 850px;
+
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: uranus 25s infinite linear;
+}
+@keyframes uranus {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.uranus img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 100px;
+}
