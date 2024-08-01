@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 .container {
   background-image: url("/assets/image/gunessistemi.jpg");
@@ -10,6 +11,7 @@
   width: 100vw;
   height: 100vh;
   position: relative;
+  overflow-y: hidden;
 }
 .gunes {
   width: 300px;
